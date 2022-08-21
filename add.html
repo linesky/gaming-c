@@ -14,7 +14,7 @@
             .then(module => WebAssembly.instantiate(module, importObj)) 
             .then(finalcode => { 
             console.log(finalcode); 
-            console.log(finalcode.instance.exports.min(400,130)); 
+            console.log(finalcode.instance.exports.add(400,130)); 
          }); 
       </script> 
    </body>
