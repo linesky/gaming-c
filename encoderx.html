@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html>
+   <head>
+      <meta charset="UTF-8">
+   </head>
+   <body>
+      <script>
+         const importObj = {
+            env: { 
+               displaylog: n => alert("The encoder x of (18) is " +n) 
+            } 
+         };
+         fetch("encoderX.wasm") .then(bytes => bytes.arrayBuffer()) 
+            .then(module => WebAssembly.instantiate(module, importObj)) 
+            .then(finalcode => { 
+            console.log(finalcode); 
+            console.log(finalcode.instance.exports.encoderX(18)); 
+         }); 
+      </script> 
+   </body>
+</html>
