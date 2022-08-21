@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html>
+   <head>
+      <meta charset="UTF-8">
+   </head>
+   <body>
+      <script>
+         const importObj = {
+            env: { 
+               displaylog: n => alert("The max of (400, 130) is " +n) 
+            } 
+         };
+         fetch("min.wasm") .then(bytes => bytes.arrayBuffer()) 
+            .then(module => WebAssembly.instantiate(module, importObj)) 
+            .then(finalcode => { 
+            console.log(finalcode); 
+            console.log(finalcode.instance.exports.min(400,130)); 
+         }); 
+      </script> 
+   </body>
+</html>
