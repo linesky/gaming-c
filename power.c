@@ -5,7 +5,7 @@ int power(int a,int b){
 	c=a;
 	if(b>0){
 		for(d=0;d<b-1;d++){
-			printf("----%d\n",c);
+			
 			c=c*a;
 		}
 	}else{c=1;}
