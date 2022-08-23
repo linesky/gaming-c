@@ -1,2 +1,2 @@
-# webasm
-web assembly samples using web asm and javascript
+# gaming
+gaming functions to c code
