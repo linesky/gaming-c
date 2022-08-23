@@ -1,5 +1,6 @@
 //https://wasdk.github.io/WasmFiddle/
 #include<string.h>
+#include<stdio.h>
 int eeppromX(int a){ 
   int ii=0;
   int l=0;
@@ -14,4 +15,15 @@ int eeppromX(int a){
 	
 	
   return ii;
+}
+
+
+
+int main(){
+	int d=0;
+	int e=0;
+	printf("\033[42;37m\n");
+	e=eeppromX(0);
+	for(d=0;d<e;d++)putc(eeppromX(d+1),stdout);
+	return 0;
 }
