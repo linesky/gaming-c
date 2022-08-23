@@ -35,6 +35,7 @@ int main(){
 	int errs=0;
 	x=ram2d(0,0,0,0);
 	y=ram2d(0+1,0,0,0);
+	printf("\033[42;37m\n");
 		for(dy=0;dy<y;dy++){
 			for(dx=0;dx<x;dx++){
 				ram2d(dx+2,dy,1,dx+(dy*xx));
