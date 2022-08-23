@@ -21,7 +21,7 @@ int main(){
 	int d=0;
 	int v=0;
 	int sizes=ram(0,0,0);
-	printf("\033[42;37m\n");
+	printf("\033[42;30m\n");
 	for(d=0;d<sizes;d++)ram(d+1,1,d);
 	for(d=0;d<sizes;d++){
 		v=ram(d+1,1,d);
