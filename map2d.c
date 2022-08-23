@@ -35,7 +35,7 @@ int main(){
 	int dy=0;
 	x=map2d(0,0);
 	y=map2d(0+1,0);
-	printf("\033[42;37m\n");
+	printf("\033[42;30m\n");
 		for(dy=0;dy<y;dy++){
 			for(dx=0;dx<x;dx++){
 				putc(map2d(dx+2,dy),stdout);
