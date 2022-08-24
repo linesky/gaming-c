@@ -5,7 +5,7 @@ int eeppromX(int a){
   int ii=0;
   int l=0;
   char i[]={"hello world...\n"};
-  printf("\033[42;30m\n");
+  
   l=strlen(i);
   if(a>0 && a<l+1){
 	  ii=(int)i[a-1];
