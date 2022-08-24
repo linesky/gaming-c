@@ -24,6 +24,7 @@ int main(){
 	int v=0;
 	int dd=0;
 	int sizes=ram2value(0,0,0,0);
+	printf("\033[42;30m\n");
 	printf("%d\n",sizes);
 	
 	for(d=0;d<sizes;d++)for(dd=0;dd<2;dd++)ram2value(d+1,1,d*2+dd,dd);
