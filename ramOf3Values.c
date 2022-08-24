@@ -31,7 +31,7 @@ int main(){
 
 	for(d=0;d<sizes;d++){
 		for(dd=0;dd<3;dd++){
-			v=ram3value(d+1,0,0,0);
+			v=ram3value(d+1,0,0,dd);
 			if(v!=d*3+dd)puts("error--------------");
 			printf("%d,%d=%d\n",d,dd,v);
 		}
