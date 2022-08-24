@@ -43,6 +43,7 @@ int main(){
 	x=ram3d(0,0,0,0,0);
 	y=ram3d(0+1,0,0,0,0);
 	z=ram3d(0+2,0,0,0,0);
+	printf("\033[42;30m\n");
 	for(dz=0;dz<z;dz++){
 		for(dy=0;dy<y;dy++){
 			for(dx=0;dx<x;dx++){
