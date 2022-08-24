@@ -24,7 +24,7 @@ int main(){
 	printf("\033[42;30m\n");
 	for(d=0;d<sizes;d++)ram(d+1,1,d);
 	for(d=0;d<sizes;d++){
-		v=ram(d+1,1,d);
+		v=ram(d+1,0,0);
 		if(v!=d)puts("error--------------");
 		printf("%d=%d\n",d,v);
 	}
