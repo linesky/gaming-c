@@ -23,7 +23,7 @@ int eeppromX(int a){
 int main(){
 	int d=0;
 	int e=0;
-	printf("\033[42;30m\n");
+	printf("\033[43;37m\n");
 	e=eeppromX(0);
 	for(d=0;d<e;d++)putc(eeppromX(d+1),stdout);
 	return 0;

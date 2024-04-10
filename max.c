@@ -10,7 +10,7 @@ int max(int a,int b){
 int main(){
 	int x=0;
 	int xx=0;
-	printf("\033[42;30m\n");
+	printf("\033[43;37m\n");
 	xx=10;
 	//if x < screenIn; x=screenIn
 	for(x=0;x<xx*2;x++)printf("%d\n",max(x,xx));

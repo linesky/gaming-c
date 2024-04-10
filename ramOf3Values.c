@@ -24,7 +24,7 @@ int main(){
 	int v=0;
 	int dd=0;
 	int sizes=ram3value(0,0,0,0);
-	printf("\033[42;30m\n");
+	printf("\033[43;37m\n");
 	printf("%d\n",sizes);
 	
 	for(d=0;d<sizes;d++)for(dd=0;dd<3;dd++)ram3value(d+1,1,d*3+dd,dd);

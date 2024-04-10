@@ -15,7 +15,7 @@ int power(int a,int b){
 int main(){
 	int x=0;
 	int xx=16;
-	printf("\033[42;30m\n");
+	printf("\033[43;37m\n");
 	for(x=0;x<xx;x++)printf("%d^2=%d\n",x,power(2,x));
 	return 0;
 }

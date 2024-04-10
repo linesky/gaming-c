@@ -40,7 +40,7 @@ int main(){
 	int pops=1;
 	int read=2;
 	int sizes=255;
-	printf("\033[42;30m\n");
+	printf("\033[44;37m\n");
 	for(d=0;d<sizes;d++)stacks(d,pushs);
 	for(d=0;d<sizes;d++){
 		v=stacks(d,pops);

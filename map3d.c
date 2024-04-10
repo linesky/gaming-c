@@ -41,7 +41,7 @@ int main(){
 	x=map3d(0,0,0);
 	y=map3d(0+1,0,0);
 	z=map3d(0+2,0,0);
-	printf("\033[42;30m\n");
+	printf("\033[43;37m\n");
 	for(dz=0;dz<z;dz++){
 		for(dy=0;dy<y;dy++){
 			for(dx=0;dx<x;dx++){

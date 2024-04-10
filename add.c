@@ -7,7 +7,7 @@ int main(){
 	int x=0;
 	int xx=16;
 	int xxx=0;
-	printf("\033[42;30m\n");
+	printf("\033[43;37m\n");
 	for(x=0;x<xx;x++){
 		xxx=add(xxx,8);
 		printf("%d\n",xxx);

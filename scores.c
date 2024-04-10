@@ -10,7 +10,7 @@ int main(){
 	int xx=16;
 	int xxx=0;
 	int readss=0;
-	printf("\033[42;30m\n");
+	printf("\033[43;37m\n");
 	for(x=0;x<xx;x++){
 		xxx=scores(200);
 		printf("%d\n",scores(readss));

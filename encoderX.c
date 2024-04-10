@@ -13,7 +13,7 @@ int encodeX(int a){
 int main(){
 	int d=0;
 	int e=0;
-	printf("\033[42;30m\n");
+	printf("\033[43;37m\n");
 	e=16;
 	for(d=0;d<e;d++)printf("%d=%d\n",d,encodeX(d));
 	return 0;
